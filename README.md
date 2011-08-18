@@ -94,9 +94,8 @@ Targeted platforms
 * Firefox 4.0 Windows
 * IE 8 and 9, Windows
 
-
 [QUnit](http://docs.jquery.com/Qunit) is used for unit testing, so other browsers could be easily added. 
-Just add the test html page on your preferred browser. 
+Just open the [test page](http://benjamine.github.com/ObjBind/test/qunit.htm) on your preferred browser. 
 
 ObjBind can be used on IE7 or older browsers, but property change detection won't work on it. IE7 doesn't provide any change tracking solution for this, so property changes must allways be done using $o(..).prop() function, ie:
 
