@@ -1,0 +1,914 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="utf-8"></meta>
+		<meta name="generator" content="JsDoc Toolkit"></meta>
+		<title>$o.OQHelper | ObjBind</title>
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"></meta>
+		<meta name="mobileoptimized" content="0"></meta>
+	
+		<link rel="stylesheet" href="../css/all.css" media="all"></link>
+		<link rel="stylesheet" href="../css/handheld.css" media="only screen and (max-width: 660px)"></link>
+		<link rel="stylesheet" href="../css/handheld.css" media="handheld"></link>
+		<link rel="stylesheet" href="../css/screen.css" media="screen and (min-width: 661px)"></link>
+
+		<!-- Syntax Highlighting -->
+		<link rel="stylesheet" href="../css/shCore.css" media="all"></link>
+		<link rel="stylesheet" href="../css/shThemeDefault.css" media="all"></link>
+		<script src="../javascript/shCore.js"></script>
+		<script src="../javascript/shBrushJScript.js"></script>
+
+		<script src="../javascript/all.js"></script>
+		<!--[if lt IE 9]>
+			<script src="../javascript/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+<div class="index">
+	<div class="menu">
+		<div class="indexLinks">
+			<a href="../index.html">Classes</a>
+			<a href="../files.html">Files</a>
+		</div>
+	
+		<h2 class="heading1">Classes</h2>
+		
+		<input type="text" name="classFilter" class="classFilter" id="ClassFilter" placeholder="Filter"></input>
+		
+		<nav>
+			<ul class="classList" id="ClassList">
+				
+					<li><a href="../symbols/%24o.html">$o</a></li>
+				
+					<li><a href="../symbols/%24o.Event.html">$o<span class='break'> </span>.<span class='break'> </span>Event</a></li>
+				
+					<li><a href="../symbols/%24o.OQArray.html">$o<span class='break'> </span>.<span class='break'> </span>OQArray</a></li>
+				
+					<li><a href="../symbols/%24o.OQHelper.html">$o<span class='break'> </span>.<span class='break'> </span>OQHelper</a></li>
+				
+					<li><a href="../symbols/_global_.html">_global_</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="fineprint" style="clear:both">
+		&copy;2011<br />
+		Documentation generator: <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0<br />
+		Template: <a href="http://www.thebrightlines.com/2010/05/06/new-template-for-jsdoctoolkit-codeview/" target="_blank">Codeview</a> 1.2<br />
+		Generated on: 2011-7-17 22:42
+	</div>
+</div>
+
+<div class="index indexStatic"></div>
+
+<div class="content">
+	<div class="innerContent">
+		<h1 class="classTitle">
+			
+			Class <span>$o.OQHelper</span>
+		</h1>
+		
+		<div class="intro">
+			<p class="description summary">
+				an observer object attached to detects changes in a target object or Array.These helpers are created internally when change tracking over an object/Array is activated.
+			</p>
+				
+			
+				<ul class="summary">
+					
+					
+					
+						<li>Defined in: <a href="../symbols/src/src__objbind.js.html">objbind.js</a></li>
+					
+						
+				</ul>
+			
+		</div>
+		
+		
+			<div class="props">
+				<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class $o.OQHelper.">
+					<caption class="sectionTitle">Class Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Constructor Attributes</th>
+							<th scope="col">Constructor Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription" >
+								<div class="fixedFont">
+									<b><a href="../symbols/%24o.OQHelper.html#constructor">$o.OQHelper</a></b>(obj)
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+		
+		
+<!--
+#### METHODS SUMMARY
+-->
+		
+			
+			
+			<div class="props">
+				<h2 class="sectionTitle">Method Summary</h2>
+				
+				
+					<table class="summaryTable" id="MethodsList" cellspacing="0" summary="A summary of the methods documented in the class $o.OQHelper.">
+						<thead>
+							<tr>
+								<th scope="col">Method Attributes</th>
+								<th scope="col">Method Name and Description</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							
+							
+								<tr
+									 class='item0'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#bind">bind</a></b>(eventType, eventData, handler)
+										</div>
+										<div class="description">binds functions to events on target object (for multiple bindings, a map of functions can be used as argument)</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item1'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#interceptArrayModifiers">interceptArrayModifiers</a></b>()
+										</div>
+										<div class="description">intercepts all functions that modify target Array contents</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item2'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#interceptProperties">interceptProperties</a></b>()
+										</div>
+										<div class="description">Intercepts all properties in target object (adds setters and getters)</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item3'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#interceptProperty">interceptProperty</a></b>(obj, property)
+										</div>
+										<div class="description">Intercepts a property on an object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item4'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#lookup">lookup</a></b>()
+										</div>
+										<div class="description">lookups for undetected changes (eg: new properties, setting length Array property) and triggers change events accordingly</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item5'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#override">override</a></b>(name, func)
+										</div>
+										<div class="description">overrides a function from target object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item6'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#overrideProperty">overrideProperty</a></b>(property, setter, getter)
+										</div>
+										<div class="description">adds setter and getter to a property in target object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item7'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#prop">prop</a></b>(name, value)
+										</div>
+										<div class="description">sets or gets (if no 2nd arguments is provided) a property value on target object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item8'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#removeInterceptors">removeInterceptors</a></b>()
+										</div>
+										<div class="description">removes all added interceptors from target object (eg: property interceptors or Array function wrappers)</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item9'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#trigger">trigger</a></b>(eventType)
+										</div>
+										<div class="description">Triggers an event on the target object, aditional arguments are passed to subscribed event handlers</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item10'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#unbind">unbind</a></b>(eventType, handler)
+										</div>
+										<div class="description">Unbinds event handlers</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item11'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#unoverride">unoverride</a></b>(name)
+										</div>
+										<div class="description">removes a function override from target object</div>
+									</td>
+								</tr>
+							
+								<tr
+									 class='item12'
+								>
+									<td class="attributes">&nbsp;</td>
+									<td class="nameDescription">
+										<div class="fixedFont"><b><a href="../symbols/%24o.OQHelper.html#unoverrideProperty">unoverrideProperty</a></b>(property)
+										</div>
+										<div class="description">Removes getter and setter from an overriden property in target object</div>
+									</td>
+								</tr>
+							
+						</tbody>
+					</table>
+				
+			
+				
+			</div>
+		
+		
+<!--
+#### EVENTS SUMMARY
+-->
+		
+<!--
+#### CONSTRUCTOR DETAILS
+-->
+		
+			<div class="details props">
+				<div class="innerProps">
+					<h2 class="sectionTitle" id="constructor">
+						Class Detail
+					</h2>
+					
+					<div class="fixedFont">
+						<b>$o.OQHelper</b>(obj)
+					</div>
+					
+					<div class="description">
+						
+						
+					</div>
+					
+					
+				
+					
+						<dl class="detailList params">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object|Array}</span>  <b>obj</b>
+									
+								</dt>
+								<dd>target object or Array to track for changes</dd>
+							
+						</dl>
+					
+					
+					
+				</div>
+			</div>
+		
+<!--
+#### FIELD DETAILS
+-->
+		
+<!--
+#### METHOD DETAILS
+-->		
+		
+			<div class="details props">
+				<div class="innerProps">
+					<h2 class="sectionTitle">
+						Method Detail
+					</h2>
+					
+					<ul class="methodDetail" id="MethodDetail">
+						
+						
+							<li 
+								 class='item0'
+							>
+								<div class="fixedFont heading" id="bind">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>bind</b>(eventType, eventData, handler)
+								</div>
+								
+								<div class="description">
+									binds functions to events on target object (for multiple bindings, a map of functions can be used as argument)
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>eventType</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{Object}</span> <b>eventData</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{function()}</span> <b>handler</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item1'
+							>
+								<div class="fixedFont heading" id="interceptArrayModifiers">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>interceptArrayModifiers</b>()
+								</div>
+								
+								<div class="description">
+									intercepts all functions that modify target Array contents
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item2'
+							>
+								<div class="fixedFont heading" id="interceptProperties">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>interceptProperties</b>()
+								</div>
+								
+								<div class="description">
+									Intercepts all properties in target object (adds setters and getters)
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item3'
+							>
+								<div class="fixedFont heading" id="interceptProperty">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>interceptProperty</b>(obj, property)
+								</div>
+								
+								<div class="description">
+									Intercepts a property on an object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{Object}</span> <b>obj</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>property</b>
+												
+											</dt>
+											<dd>name</dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item4'
+							>
+								<div class="fixedFont heading" id="lookup">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>lookup</b>()
+								</div>
+								
+								<div class="description">
+									lookups for undetected changes (eg: new properties, setting length Array property) and triggers change events accordingly
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item5'
+							>
+								<div class="fixedFont heading" id="override">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>override</b>(name, func)
+								</div>
+								
+								<div class="description">
+									overrides a function from target object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>name</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{function()}</span> <b>func</b>
+												
+											</dt>
+											<dd>replacement function</dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item6'
+							>
+								<div class="fixedFont heading" id="overrideProperty">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>overrideProperty</b>(property, setter, getter)
+								</div>
+								
+								<div class="description">
+									adds setter and getter to a property in target object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>property</b>
+												
+											</dt>
+											<dd>name</dd>
+										
+											<dt>
+												<span class="light fixedFont">{function()}</span> <b>setter</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{function()}</span> <b>getter</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item7'
+							>
+								<div class="fixedFont heading" id="prop">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>prop</b>(name, value)
+								</div>
+								
+								<div class="description">
+									sets or gets (if no 2nd arguments is provided) a property value on target object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>name</b>
+												
+											</dt>
+											<dd>property name</dd>
+										
+											<dt>
+												<span class="light fixedFont">{Object}</span> <b>value</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+									<dl class="detailList nomargin">
+									
+										
+										
+										
+										
+										
+										
+										
+											<dt class="heading">Returns:</dt>
+											
+												<dd>property value if not 2nd argument is provided</dd>
+											
+										
+										
+										
+										
+										
+									
+									</dl>
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item8'
+							>
+								<div class="fixedFont heading" id="removeInterceptors">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>removeInterceptors</b>()
+								</div>
+								
+								<div class="description">
+									removes all added interceptors from target object (eg: property interceptors or Array function wrappers)
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item9'
+							>
+								<div class="fixedFont heading" id="trigger">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>trigger</b>(eventType)
+								</div>
+								
+								<div class="description">
+									Triggers an event on the target object, aditional arguments are passed to subscribed event handlers
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>eventType</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item10'
+							>
+								<div class="fixedFont heading" id="unbind">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>unbind</b>(eventType, handler)
+								</div>
+								
+								<div class="description">
+									Unbinds event handlers
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{Object}</span> <b>eventType</b>
+												
+											</dt>
+											<dd></dd>
+										
+											<dt>
+												<span class="light fixedFont">{function()}</span> <b>handler</b>
+												<i>Optional</i>
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item11'
+							>
+								<div class="fixedFont heading" id="unoverride">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>unoverride</b>(name)
+								</div>
+								
+								<div class="description">
+									removes a function override from target object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>name</b>
+												
+											</dt>
+											<dd></dd>
+										
+									</dl>
+								
+								
+								
+								<div class="hr"></div>
+							</li>
+						
+							<li 
+								 class='item12'
+							>
+								<div class="fixedFont heading" id="unoverrideProperty">
+									<span class='lighter'>
+									
+									</span>
+									
+									
+									
+									<b>unoverrideProperty</b>(property)
+								</div>
+								
+								<div class="description">
+									Removes getter and setter from an overriden property in target object
+									
+									
+									
+									
+								</div>
+								
+								
+								
+								
+									<dl class="detailList params">
+										<dt class="heading">Parameters:</dt>
+										
+											<dt>
+												<span class="light fixedFont">{string}</span> <b>property</b>
+												
+											</dt>
+											<dd>name</dd>
+										
+									</dl>
+								
+								
+								
+								
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+		
+<!--
+#### EVENT DETAILS
+-->		
+		
+	</div>
+</div>
+		<script type="text/javascript">
+			wbos.CssTools.MediaQueryFallBack.LoadCss('../css/screen.css', '../css/handheld.css', 660);
+			codeview.classFilter.Init();
+			
+			// Syntax Highlighting
+			SyntaxHighlighter.all();
+		</script>
+	</body>
+</html>
+

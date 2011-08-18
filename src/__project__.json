@@ -1,0 +1,15 @@
+{
+	"packages":[
+	{
+		"name":"objbind",
+		"description": "change tracking, events and traversing on plain JavaScripts objects and Array",
+		"files":[
+			"objbind.js" 
+		]
+	}
+	],
+	"doc":{
+		"type": "jsdoc",
+		"config": "../jsdoc.conf"
+	}
+}
