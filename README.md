@@ -126,8 +126,8 @@ change tracking support can be checked using:
 Including ObjBind in your application
 ---------------
 
-Download the latest release from the web site (http://github.com/benjamine/objbind) and copy 
-`dist/objbind.js` or `dist/objbind.min.js` (minified) to a suitable location. Then include it in your HTML
+Download the latest release from the web site (http://github.com/benjamine/ObjBind) and copy 
+`dist/objbind.debug.js` or `dist/objbind.js` (minified) to a suitable location. Then include it in your HTML
 like so:
 
     <script type="text/javascript" src="/path/to/objbind.min.js"></script>
@@ -182,4 +182,4 @@ Documentation
 
 JSDoc is used. Html API Docs are generated with [jsdoc-toolkit](http://code.google.com/p/jsdoc-toolkit/) and included in the docs/api folder, they also can be accessed at:
 
-[API Docs](http://benjamine.github.com/objbind/docs/api/) 
+[API Docs](http://benjamine.github.com/ObjBind/doc/api/) 
